@@ -6,7 +6,5 @@
             "src": "/(.*)",
             "dest": "/beiyi3-guide-deploy/$1"
         }
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
+    ]
 }
