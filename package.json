@@ -1,0 +1,14 @@
+{
+    "name": "beiyi3-guide",
+    "version": "1.0.0",
+    "description": "北医三院病友经验指南",
+    "scripts": {
+        "build": "node build-content.js"
+    },
+    "keywords": [
+        "北医三院",
+        "医疗指南"
+    ],
+    "author": "",
+    "license": "MIT"
+}

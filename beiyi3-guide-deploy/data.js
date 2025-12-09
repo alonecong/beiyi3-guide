@@ -1,5 +1,6 @@
 // 配置文件：在此处修改网页内容
-// 由 Admin 编辑器生成
+// 由构建脚本从 content.md 自动生成
+// ⚠️ 不要直接编辑此文件，请编辑 content.md
 
 const guideData = {
     "meta": {
@@ -7,8 +8,8 @@ const guideData = {
         "description": "北京大学第三医院（北医三院）看病、住院、生活经验总结，包括入院线路、租床、找医生、救护车租赁等实用信息。"
     },
     "hero": {
-        "title": "北医三院指南 ",
-        "subtitle": "汇集病友真实经验，助您就医更顺畅.hahha",
+        "title": "北医三院指南",
+        "subtitle": "汇集病友真实经验，助您就医更顺畅",
         "buttonText": "开始浏览"
     },
     "footer": {
@@ -17,7 +18,7 @@ const guideData = {
     },
     "sections": [
         {
-            "id": "route",
+            "id": "入院线路-交通",
             "icon": "🚗",
             "title": "入院线路 & 交通",
             "blocks": [
@@ -31,7 +32,7 @@ const guideData = {
                 },
                 {
                     "type": "text",
-                    "content": "公交：附近有“北医三院”站、“塔院”站等。常用公交线路包括 xxx 路（需实际查证）。"
+                    "content": "公交：附近有\"北医三院\"站、\"塔院\"站等。常用公交线路包括 xxx 路（需实际查证）。"
                 },
                 {
                     "type": "subtitle",
@@ -59,7 +60,7 @@ const guideData = {
             ]
         },
         {
-            "id": "attention",
+            "id": "入院注意事项",
             "icon": "📝",
             "title": "入院注意事项",
             "blocks": [
@@ -85,15 +86,15 @@ const guideData = {
                     ]
                 },
                 {
-                    "type": "alert",
-                    "content": "提示：疫情或流感高发期，请务必准备充足的口罩，陪护人员也需要。"
+                    "type": "text",
+                    "content": "疫情或流感高发期，请务必准备充足的口罩，陪护人员也需要。"
                 }
             ]
         },
         {
-            "id": "beds",
-            "icon": "🛏️",
-            "title": "租床 & 陪护经验",
+            "id": "-租床-陪护经验",
+            "icon": "📄",
+            "title": "🛏️ 租床 & 陪护经验",
             "blocks": [
                 {
                     "type": "subtitle",
@@ -121,9 +122,9 @@ const guideData = {
             ]
         },
         {
-            "id": "doctors",
-            "icon": "👨‍⚕️",
-            "title": "挂号 & 找医生",
+            "id": "-挂号-找医生",
+            "icon": "📄",
+            "title": "👨‍⚕️ 挂号 & 找医生",
             "blocks": [
                 {
                     "type": "text",
@@ -149,7 +150,7 @@ const guideData = {
             ]
         },
         {
-            "id": "ambulance",
+            "id": "出院-救护车租赁",
             "icon": "🚑",
             "title": "出院 & 救护车租赁",
             "blocks": [
@@ -170,12 +171,15 @@ const guideData = {
                     "content": "对于出院需要躺卧去往火车站/机场的病友，可以联系正规的非急救转运服务。"
                 },
                 {
-                    "type": "tips",
-                    "content": "注意事项：",
+                    "type": "text",
+                    "content": "注意事项："
+                },
+                {
+                    "type": "list",
                     "items": [
                         "务必确认是否具备医疗资质，是否配备医护人员（如需要）。",
                         "提前询价，确认是否包含担架上楼/下楼费用。",
-                        "警惕“黑救护车”：任何主要靠发小卡片揽客的需谨慎，建议咨询护士站或打官方热线推荐。"
+                        "警惕\"黑救护车\"：任何主要靠发小卡片揽客的需谨慎，建议咨询护士站或打官方热线推荐。"
                     ]
                 },
                 {

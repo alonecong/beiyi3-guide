@@ -1,5 +1,5 @@
 {
-    "buildCommand": "echo 'No build needed for static site'",
+    "buildCommand": "node build-content.js",
     "outputDirectory": "beiyi3-guide-deploy",
     "routes": [
         {
