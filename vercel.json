@@ -1,0 +1,12 @@
+{
+    "buildCommand": "echo 'No build needed for static site'",
+    "outputDirectory": "beiyi3-guide-deploy",
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/beiyi3-guide-deploy/$1"
+        }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+}
